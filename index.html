@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mask Map</title>
+
+    <script src="https://kit.fontawesome.com/4cd769968d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.css"></link> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.Default.css"></link> 
+    <link rel="stylesheet" href="css/leaflet-routing-machine.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="map"></div>
+
+    <div class="leftBar">
+        <div class="Bar">
+            <div class="bar-title">
+                <div class="info">
+                    <h1 class="get-day"></h1>
+                    <div>
+                        <h5 class="get-date">2022-12-07</h5>
+                        <span class="mask-shop">身分證末號為<h3>1,3,5,7,9</h3>可購買</span>
+                    </div>
+                </div>
+                <div class="inputGroup">
+                    <input type="text" class="search" placeholder="搜尋區域,地址,藥局" aria-describedby="btnSearch">
+                    <button type="button" id="btnSearch"><i class="fas fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <!-- <input type="text" class="search" placeholder="搜尋區域,地址,藥局"> -->
+            </div>
+
+            <div class="bar-body overflow-y-auto">
+
+                <!-- <div class="card">
+                    <h4>六角藥局</h4>
+                    <h5><i class="fas fa-location-dot"></i>114台北市內湖區麗山街</h5>
+                    <h5><i class="fas fa-solid fa-phone"></i>02-12345678</h5>
+                    <h5><i class="fas fa-timer"></i>營業中 9:00~12:00</h5>
+                    <div class="mask">
+                        <div class="maskAdult"><h6>成人口罩</h6> <h4>20</h4></div>
+                        <div class="maskChild"><h6>兒童口罩</h6> <h4>30</h4></div>
+                    </div>
+                </div> -->
+                
+
+            </div>
+        </div>
+        <button type="button" class="btn_leftBar">&rsaquo;</button>
+    </div>
+
+    <!-- <i class="fas fa-solid fa-phone"></i>
+    <i class="fas fa-location-dot"></i>
+    <i class="fas fa-timer"></i> -->
+
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js"></script>
+    <script src="js/leaflet-routing-machine.js"></script>
+    <script src="js/Control.Geocoder.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/all.js"></script>
+</body>
+</html>
