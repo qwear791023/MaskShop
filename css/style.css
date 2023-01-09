@@ -51,12 +51,12 @@
 @media ( max-width:710px ) {
     :root { font-size: 6px; }
 }
-h1 { font-size: 3.5rem; }
-h2 { font-size: 2.75rem; }
-h3 { font-size: 2rem; }
-h4 { font-size: 1.75rem; }
-h5 { font-size: 1.5rem; }
-h6 { font-size: 1.25rem; }
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.625rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.375rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1.125rem; }
 p, span { font-size: 1rem; }
 small { font-size: .5em; }
 
@@ -156,9 +156,7 @@ html,body{
 .Bar {
     width: 100%;
     height: 100%;
-    /* position: absolute;
-    top: 0;
-    left: 0; */
+
 }
 
 
@@ -233,3 +231,6 @@ input.search:focus { outline: none; }
 .maskAdult.not, .maskChild.not { background: #a5a5a5; }
 .maskAdult { background: #73c0d8; }
 .maskChild { background: #ffa573; }
+
+
+.closeTime { color: red!important; }
